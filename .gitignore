@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore node modules
+/frontend/node_modules
+/server/node_modules
+
+# Ignore environment files
+/frontend/.env*
+/server/.env*
+.env*
+
+# Ignore logs and other system files
+*.log
+.DS_Store
+
+# Ignore build outputs
+/frontend/build
+/server/dist
+
+# Ignore lock files (optional if using only one package manager)
+yarn.lock
+pnpm-lock.yaml

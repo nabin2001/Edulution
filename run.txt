@@ -1,0 +1,5 @@
+set NODE_OPTIONS=--max-old-space-size=8192
+set NODE_OPTIONS=--max-old-space-size=4096
+8192
+16384
+12888
